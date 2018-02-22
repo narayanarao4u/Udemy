@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>CSS Selector</title>
+    <style>
+        
+    div a{
+        background: rgb(111, 155, 102);
+        font-weight:bolder;
+        margin: 1px;
+        padding: 1px;
+    }
+    div>p>a{
+        background: rgb(146, 102, 155);
+        font-weight:bolder;
+        margin: 1px;
+        padding: 1px;
+    }
+
+  
+    div~p {
+        background: rgb(3, 130, 248);
+    }
+    div+a {
+        background: rgb(244, 248, 3);
+    }
+    li:first-child {
+        background: rgb(60, 248, 3);
+    }
+    li:last-child {
+        background: rgb(248, 3, 3);
+    }
+    li:nth-child(3) {
+        background: rgba(207, 133, 22, 0.486);
+    }
+    li:nth-child(4n) {
+        background: rgba(103, 216, 231, 0.486);
+    }
+
+    </style>
+
+</head>
+<body>
+    
+    <ol>
+        <li><a href="www.google.com">google</a></li>
+        <li><a href="www.facebook.com">facebook</a></li>
+        <li><a href="www.facebook.uk">facebook</a></li>
+        <li><a href="www.facook.uk">facebook</a></li>
+        <li><a href="www.facebook.com">facebook</a></li>
+        <li><a href="www.facebook.com">facebook</a></li>
+        <li><a href="www.facook.uk">facebook</a></li>
+        <li><a href="www.google.com">google</a></li>
+        <li><a href="www.facebook.com">facebook</a></li>
+        <li><a href="www.facebook.uk">facebook</a></li>
+        <li><a href="www.facook.uk">facebook</a></li>
+        <li><a href="www.facebook.com">facebook</a></li>
+        <li><a href="www.facebook.com">facebook</a></li>
+    </ol>
+    <div>
+        <p>
+            This selector means that all div elements should be targeted by the CSS rule.
+            There are several different types of CSS selectors. Both CSS 1.0, CSS 2.1 and CSS 3.0 added selectors to the CSS standard. 
+            The rest of this text will go through these CSS selectors.                
+            <a href="#"> Universal Selector</a> 
+            The universal CSS selector is used to select all elements. It is marked with a *. Here is a universal CSS selector example:
+        </p>
+    </div>
+    <a href="#">Adjacent Sibling Selector</a>
+    <p>
+            Adjacent Sibling Selector
+            The adjacent sibling CSS selector is used to select HTML elements that are 
+            adjacent siblings of some other HTML element. Look at this HTML:
+    </p>
+    <a href="#"> General Sibling Selector</a>
+    <p>
+            General Sibling Selector
+            The CSS general sibling selector is used to select HTML elements which have the same parent. Unlike with the 
+            adjacent sibling selector, the general sibling selector selects all elements that are preceded by another element 
+            (inside the same parent), even if the two elements are not directly adjacent.
+    </p>
+    <div>
+            
+            This selector means that all div elements should be targeted by the CSS rule.
+            There are several different types of CSS selectors. Both CSS 1.0, CSS 2.1 and CSS 3.0 added selectors to the CSS standard. 
+            The rest of this text will go through these CSS selectors.                
+            <a href="#"> Universal Selector</a> 
+            The universal CSS selector is used to select all elements. It is marked with a *. Here is a universal CSS selector example:
+    
+        </div>
+</body>
+</html>
