@@ -1,0 +1,17 @@
+[
+  {
+    "name":"Naru",
+    "age":"32",
+    "sex":"Male"
+  },
+  {
+    "name":"Teja",
+    "age":"34",
+    "sex":"Male"
+  },
+  {
+    "name":"Shilpa",
+    "age":"33",
+    "sex":"Female"
+  }
+]
