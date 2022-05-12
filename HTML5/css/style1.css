@@ -1,0 +1,109 @@
+/* General CSS*/
+body{
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+h1{
+    font-size: 36px;
+}
+
+h1{
+    font-size: 30px;
+}
+h1, h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+p{
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+
+.main-container{
+    width: 100%;
+    margin: 0 auto;
+}
+.single-row{
+    width: 100%;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+/*Header section*/
+.col-left{
+    width: 63%;
+}
+
+.col-left img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+.col-right{
+    width: 32%;
+}
+
+.col-left, .col-right{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.btn{
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 28px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #337ab7;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-top: 1px solid #eee;
+}
+/*Content*/
+.col-1, .col-2, .col-3{
+    width: 30%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+}
+
+.btn-info{
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 4px;
+    color: #333;
+    border: 1px solid #CECECE;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.btn-info:hover{
+    color:#333;
+    background-color: #a9e7fa;
+    border-color: #adadad;
+
+}
+.col-footer{
+    padding: 30px 0px;
+}
+
+
+
+
